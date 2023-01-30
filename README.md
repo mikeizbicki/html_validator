@@ -18,10 +18,10 @@ HTML is how webpages format their content.
 A simple example is the following code:
 
 ```
-Data structures is <strong>the best</strong>!
+Data structures are <strong>the best</strong>!
 ```
 
-Which results in text that looks like: Data structures is <strong>the best</strong>!
+Which results in text that looks like: Data structures are <strong>the best</strong>!
 
 The text between angle brackets is called a tag,
 and tags always come in pairs.
@@ -46,7 +46,7 @@ Examples of incorrect html are:
 1. `<strong>example` (there is no closing `</strong>` tag)
 1. `<strong>python <u>is </strong> awesome </u>` (the `</strong>` closing tag needs to be outside of the `</u>` tag)
 
-The goal of this assignment is to write a program which can detect these HTML errors.
+The goal of this assignment is to write a program that  can detect these HTML errors.
 
 **Real World Application:**
 The [World Wide Web Consortium (W3C)](https://w3.org) is the organization responsible for maintaining the HTML standard.
