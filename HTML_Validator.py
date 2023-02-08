@@ -23,18 +23,13 @@ def validate_html(html):
     # but arbitrary text located between the html tags
 
     ls = []
-    # created empty stack/list
     balanced = True
-    # Defining Boolean Logic for Problem
-
     for i in _extract_tags(html):
         if '/' not in i:
             ls.append(i)
         else:
             if ls == []:
                 balanced = False
-    # This for loop creates use helper function to look for
-    # tags with no / to improve functionality
             else:
                 a = ls.pop()
                 if a[2:] not in i[1:]:
